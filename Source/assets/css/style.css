@@ -2690,6 +2690,12 @@ a.text-theme:hover,
   transition: all ease 0.4s;
   transform: scale(1.001);
 }
+
+#founder {
+  width: 6rem;
+  border-radius: 30%;
+}
+
 .recent-post .post-title {
   font-weight: 700;
   font-size: 18px;
