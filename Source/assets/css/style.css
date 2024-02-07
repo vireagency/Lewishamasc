@@ -5761,6 +5761,7 @@ blockquote.vs-quote cite {
 }
 .img-box5 .box-content {
   padding: 60px;
+  padding-bottom: 80px;
   position: absolute;
   top: 0;
 }
