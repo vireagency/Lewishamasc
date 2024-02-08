@@ -246,11 +246,11 @@ h6 {
 @media (max-width: 767px) {
   .h1,
   h1 {
-    font-size: 36px;
+    font-size: 27px;
   }
   .h2,
   h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .h3,
   h3 {
@@ -258,7 +258,7 @@ h6 {
   }
   .h4,
   h4 {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 /*------------------- 1.6. Extend -------------------*/
@@ -1642,7 +1642,8 @@ textarea.is-invalid {
 @media (max-width: 767px) {
   .sec-title2,
   .sec-title {
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 900;
   }
   .sec-subtitle {
     letter-spacing: 0;
@@ -6889,7 +6890,7 @@ blockquote.vs-quote cite {
   }
   .form-style1 .form-title {
     margin: -0.23em 0 18px 0;
-    font-size: 28px;
+    font-size: 20px;
   }
   .form-style1 .row .form-group {
     margin-bottom: 10px;
@@ -6903,7 +6904,7 @@ blockquote.vs-quote cite {
     margin-top: 10px;
   }
   .form-style1 input[type="radio"] ~ label {
-    font-size: 16px;
+    font-size: 14px;
   }
   .form-style1 .icon-btn {
     --btn-size: 48px;
@@ -8629,6 +8630,7 @@ blockquote.vs-quote cite {
 }
 .course-details .border-title2 {
   margin: 0 0 25px 0;
+  margin-top: 1rem;
 }
 .course-details .course-category {
   margin-bottom: 17px;
