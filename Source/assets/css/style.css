@@ -1,6 +1,6 @@
 :root {
-  --theme-color: #3747ff;
-  --theme-color2: #ffcc33;
+  --theme-color: #3d278b;
+  --theme-color2: #ef842b;
   --theme-color3: #626fff;
 
   --global-color: #374a6d;
@@ -5560,7 +5560,7 @@ blockquote.vs-quote cite {
   color: var(--white-color);
 }
 .media-style5 .icon {
-  background-color: var(--theme-color2);
+  background-color: var(--primary-color);
   border-radius: 50%;
   color: var(--title-color);
   font-size: 30px;
@@ -8541,7 +8541,7 @@ blockquote.vs-quote cite {
   transition: all ease 0.4s;
 }
 .course-list a i {
-  color: var(--theme-color);
+  color: var(--secondary-hover);
   margin-right: 10px;
 }
 .course-list a:before {
@@ -8557,7 +8557,7 @@ blockquote.vs-quote cite {
   width: 38px;
   border-radius: 20px;
   opacity: 0;
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
   color: var(--white-color);
   text-align: center;
   transition: all ease 0.4s;
@@ -8635,7 +8635,7 @@ blockquote.vs-quote cite {
 }
 .course-details .course-category a {
   color: var(--title-color);
-  background-color: var(--theme-color2);
+  background-color: var(--primary-color);
   display: inline-block;
   font-size: 13px;
   font-weight: bold;
@@ -8647,7 +8647,7 @@ blockquote.vs-quote cite {
   transition: all ease 0.4s;
 }
 .course-details .course-category a:hover {
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
   color: var(--white-color);
 }
 .course-details .course-review {
