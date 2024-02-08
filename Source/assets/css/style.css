@@ -1015,7 +1015,7 @@ textarea.is-invalid {
   display: inline-block;
   text-align: center;
   font-family: var(--title-font);
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
   color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
@@ -1034,7 +1034,7 @@ textarea.is-invalid {
   right: var(--shape-gap, 3px);
   bottom: var(--shape-gap, 3px);
   left: var(--shape-gap, 3px);
-  background-color: var(--secondary-hover);
+  background-color: var(--secondary-color);
   transform: scale(0);
   z-index: -1;
   border-radius: inherit;
@@ -1061,12 +1061,12 @@ textarea.is-invalid {
   visibility: visible;
 }
 .vs-btn.style2 {
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
   color: var(--white-color);
   padding: 0 35px 0 0;
 }
 .vs-btn.style2 i {
-  background-color: var(--theme-color3);
+  background-color: var(--secondary-hover);
   color: var(--white-color);
   width: 60px;
   height: 60px;
@@ -1078,10 +1078,10 @@ textarea.is-invalid {
 .vs-btn.style2:after {
   --shape-gap: 0;
   transform: scale(1);
-  background-color: var(--theme-color);
+  background-color: var(--secondary-color);
   z-index: -2;
   border-radius: inherit;
-  border: 2px solid var(--theme-color);
+  border: 2px solid var(--secondary-color);
 }
 .vs-btn.style2:hover {
   color: var(--white-color);
@@ -1090,7 +1090,7 @@ textarea.is-invalid {
   transform: scale(1);
 }
 .vs-btn.style2:hover i {
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
 }
 .vs-btn.style4 {
   background-color: var(--secondary-color);
@@ -1571,8 +1571,12 @@ textarea.is-invalid {
 .sec-icon .vs-circle {
   --circle-size: 45px;
   --circle-angle: -405deg;
-  --circle-bg: var(--theme-color);
+  --circle-bg: var(--secondary-hover);
   display: inline-block;
+}
+
+.expo-careers {
+  color: var(--secondary-hover);
 }
 
 .sec-btns {
@@ -2102,7 +2106,7 @@ textarea.is-invalid {
 
 /*------------------- 3.8. Text Color -------------------*/
 .text-theme {
-  color: var(--theme-color) !important;
+  color: var(--secondary-hover) !important;
 }
 
 .text-title {
@@ -3723,7 +3727,7 @@ a.text-theme:hover,
   height: 36px;
   line-height: 36px;
   text-align: center;
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
   color: var(--white-color);
   position: absolute;
   left: 0;
@@ -3786,7 +3790,7 @@ a.text-theme:hover,
   color: var(--title-color);
 }
 .footer-layout3 .social-style1 a:hover {
-  color: var(--theme-color);
+  color: var(--secondary-hover);
 }
 .footer-layout3 .social-style1 a:hover i {
   color: var(--white-color);
@@ -5422,16 +5426,16 @@ blockquote.vs-quote cite {
   font-weight: 500;
 }
 .countdown-style1 .link-btn {
-  color: var(--theme-color);
+  color: var(--secondary-hover);
 }
 .countdown-style1 .link-btn:before {
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
 }
 .countdown-style1 .link-btn:hover {
-  color: var(--theme-color2);
+  color: var(--primary-color);
 }
 .countdown-style1 .link-btn:hover:before {
-  background-color: var(--theme-color2);
+  background-color: var(--primary-color);
 }
 .countdown-style1 ul {
   margin: 0 0 10px 0;
@@ -5526,13 +5530,13 @@ blockquote.vs-quote cite {
   margin-right: 15px;
   text-align: center;
   color: var(--title-color);
-  background-color: var(--theme-color2);
+  background-color: var(--primary-color);
   border-radius: 50%;
   display: inline-block;
   transition: all ease 0.4s;
 }
 .media-style3:hover .media-icon {
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
   color: var(--white-color);
 }
 
@@ -5886,7 +5890,7 @@ blockquote.vs-quote cite {
   border-radius: 50%;
   text-align: center;
   color: var(--white-color);
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
 }
 
 .list-style5 {
@@ -6611,11 +6615,11 @@ blockquote.vs-quote cite {
 }
 .form-style1 input[type="radio"]:hover ~ label,
 .form-style1 input[type="radio"]:checked ~ label {
-  color: var(--theme-color);
+  color: var(--secondary-hover);
 }
 .form-style1 input[type="radio"]:checked ~ label::before {
-  border-color: var(--theme-color);
-  background-color: var(--theme-color);
+  border-color: var(--secondary-hover);
+  background-color: var(--secondary-hover);
 }
 .form-style1 .icon-btn {
   --btn-size: 68px;
@@ -6689,7 +6693,7 @@ blockquote.vs-quote cite {
   text-decoration: underline;
 }
 .form-style2 .form-link:hover {
-  color: var(--theme-color);
+  color: var(--secondary-hover);
 }
 
 .form-style3 {
@@ -8977,7 +8981,7 @@ blockquote.vs-quote cite {
 }
 .event-style1 .event-date {
   color: var(--white-color);
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
   margin-right: 25px;
   border-radius: 20px;
   padding: 17px 20px 20px 20px;
@@ -9016,7 +9020,7 @@ blockquote.vs-quote cite {
   font-size: 14px;
 }
 .event-style1:not(.layout2):hover {
-  background-color: var(--theme-color);
+  background-color: var(--secondary-hover);
 }
 .event-style1:not(.layout2):hover .event-date {
   background-color: var(--theme-color3);
@@ -9390,7 +9394,7 @@ blockquote.vs-quote cite {
   visibility: hidden;
   z-index: -1;
   transition: all ease 0.4s;
-  border: 2px solid var(--theme-color);
+  border: 2px solid var(--secondary-hover);
 }
 .feature-style1:before {
   left: 0;
