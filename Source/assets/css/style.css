@@ -34,7 +34,7 @@
 html,
 body {
   scroll-behavior: auto !important;
-  scroll-behavior: smooth;
+  scroll-behavior:smooth !important;
 }
 
 body {
@@ -6389,6 +6389,11 @@ blockquote.vs-quote cite {
     padding: 10px 20px;
     font-size: 12px;
   }
+
+  .bg-one {
+    transition: all 0.3s ease-in-out;
+  }
+
   .media-style7 .media-title {
     font-size: 20px;
   }

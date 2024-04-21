@@ -233,7 +233,7 @@
       slidesToShow: (d('slide-show') ? d('slide-show') : 1),
       adaptiveHeight: (d('adaptive-height') ? true : false),
       centerMode: (d('center-mode') ? true : false),
-      autoplaySpeed: (d('autoplay-speed') ? d('autoplay-speed') : 8000),
+      autoplaySpeed: (d('autoplay-speed') ? d('autoplay-speed') : 5000),
       centerPadding: (d('center-padding') ? d('center-padding') : '0'),
       focusOnSelect: (d('focuson-select') ? true : false),
       pauseOnFocus: (d('pauseon-focus') ? true : false),
