@@ -102,8 +102,8 @@
       loop: true,
       items: 1,
       margin: 0,
-      autoplay: false,
-      slideSpeed: 800,
+      autoplay: true,
+      slideSpeed: 2000,
       nav: true,
       dots: false,
       responsive: {
