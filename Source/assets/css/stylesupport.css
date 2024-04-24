@@ -4752,7 +4752,7 @@ body {
   margin-bottom: 22px;
   font-weight: 400;
   line-height: 32px;
-  background: #D2093C;
+  background: var(--primary-color);
 }
 .home-sliders .slider-content .slider-desc {
   font-size: 18px;
